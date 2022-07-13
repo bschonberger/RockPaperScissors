@@ -5,11 +5,27 @@ head {
     gap: 52px;
 
 }
+
+title {
+    justify-content: center;
+    font-size: large;
+    font-weight: 300;
+    gap: 52px;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:steelblue;
+
+  }
+
 .container {
     display: flex;
     justify-content: center;
     gap: 52px;
-  }
-  .info {
+}
+.info {
     max-width: 200px;
-  }
+}
+
