@@ -1,3 +1,21 @@
+// Function to hide start div and show end div
+let startContainer = document.getElementById('startcontainer');
+let btn = document.querySelector("#startbutton");
+
+btn.addEventListener('click', function(){
+    startContainer.style.opacity = 0;
+    startContainer.style.transform = 'scale(0)';
+    // Add timeout with length matching animation-duration 
+    window.setTimeout(function(){
+        startContainer.style.display = 'none';
+    },700); 
+    setTimeout(() => {  typeWriter(); }, 1000);
+    // Add event listener to all of the game buttons
+    gameButtons = document.querySelectorAll(".gameselection").forEach(item => {
+        item.addEventListener("click", playSound);
+    })
+});
+
 function computerPlay () {
     const choices = ["Rock", "Paper","Scissors"]
     return choices[getRandomInt(3)]
@@ -91,4 +109,4 @@ function game(playRound){
         }
     }  
 
-game(playRound)
+game(playRound) 
