@@ -1,9 +1,3 @@
-
-div {
-    color: white;
-    background-color: black;
-}
-
 header {
     color: white;
     background-color: aqua;
@@ -12,4 +6,5 @@ header {
 div.container {
     color: aqua;
     background-color: aliceblue;
+    flex: auto;
 }
