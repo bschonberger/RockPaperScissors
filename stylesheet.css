@@ -1,18 +1,3 @@
-head {
-    justify-content: center;
-    font-size: large;
-    font-weight: 300;
-    gap: 52px;
-
-}
-
-title {
-    justify-content: center;
-    font-size: large;
-    font-weight: 300;
-    gap: 52px;
-}
-
 body {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
@@ -28,4 +13,12 @@ body {
 .info {
     max-width: 200px;
 }
-
+.title {
+    font-size: 90px;
+    font-weight: 900;
+    margin-bottom: 32px;
+    padding-top: 100px;
+    color:black;
+    justify-content: center;
+    gap: 50px;
+  }
