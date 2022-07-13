@@ -1,8 +1,10 @@
-header {
-    color: white;
-    background-color: aqua;
-}
+head {
+    justify-content: center;
+    font-size: large;
+    font-weight: 300;
+    gap: 52px;
 
+}
 .container {
     display: flex;
     justify-content: center;
