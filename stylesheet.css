@@ -3,8 +3,8 @@ header {
     background-color: aqua;
 }
 
-div.container {
-    color: aqua;
-    background-color: aliceblue;
-    flex: auto;
-}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
