@@ -7,7 +7,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 52px;
-    border: 5px red;
+    border: 3px black;
 }
+
 
 
