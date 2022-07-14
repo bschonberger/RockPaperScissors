@@ -9,10 +9,18 @@ body {
     gap: 52px;
 }
 
-.left+.right{
+text.left{
   border-style: solid;
   padding: 10px;
 }
+text.right{
+  border-style: solid;
+  padding: 10px;
+}
+.title{
+  display: flex;
+  justify-content: center;
 
+}   
 
 
